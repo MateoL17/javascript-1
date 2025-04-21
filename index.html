@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Programa verificación de Notas</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <!-- Fuente de Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Condensed+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <br><br><br><br>
+  <div class="container">
+    <h2>Ingrese las cinco notas del parcial</h2>
+    <input type="number" id="nota1" placeholder="Nota 1 (0-10)" min="0" max="10">
+    <input type="number" id="nota2" placeholder="Nota 2 (0-10)" min="0" max="10">
+    <input type="number" id="nota3" placeholder="Nota 3 (0-10)" min="0" max="10">
+    <input type="number" id="nota4" placeholder="Nota 4 (0-10)" min="0" max="10">
+    <input type="number" id="nota5" placeholder="Nota 5 (0-10)" min="0" max="10">
+    <button onclick="verificarPromedio()" class="boton-verficar">Verificar</button>
+    <div id="resultado"></div>
+  </div>
+  <!-- Enlace al archivo JavaScript externo -->
+  <script src="JS/JavaScript.js"></script>
+</body>
+</html>

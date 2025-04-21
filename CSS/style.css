@@ -1,0 +1,73 @@
+style
+    
+    *{
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing:border-box;
+        box-sizing: border-box;
+    }    
+
+    body {
+      font-family: "Special Gothic Condensed One", sans-serif;
+      padding: 25px;
+      background-color: #f4f4f4;
+    }
+
+    .boton-verficar{
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 10%);
+        position: relative;
+    }
+
+    .container {
+      background-color: rgb(248, 248, 248);
+      padding: 18px;
+      border-radius: 10px;
+      max-width: 400px;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.247);
+    }
+
+    .container h2{
+        text-align: center;
+        font-family: "Special Gothic Condensed One", sans-serif;
+        font-size: 32px;
+        margin-top: -4px;
+        padding-bottom: 14px;
+    }
+
+    input {
+      display: block;
+      position: relative;
+      text-align: left;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin-bottom: 10px;
+      padding: 8px;
+      width: 90%;
+    }
+
+    button {
+      padding: 10px;
+      width: 95%;
+      background-color: #4CAF50;
+      color: white;
+      border: solid;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover{
+        background-color: #429945;
+    }
+
+    #resultado {
+      margin-top: 26px;
+      font-size: 18px;
+      font-weight: lighter;
+      font-family: "Special Gothic Condensed One", sans-serif;
+    }
